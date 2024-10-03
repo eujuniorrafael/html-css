@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/*
+em HTML é (id)    = em CSS é (#)
+--> Colocar em APENAS UM dentro do mesmo HTML.
+Exemplo: (id="identificador")
+
+Não pode ter outro ID com o nome de "identificador" no documento HTML.
+
+em HTML é (class) = em CSS é (.)
+--> Pode colocar em MAIS DE UM elemento.
+*/
+
+body {
+    background-color: rgba(239, 254, 188, 0.726);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(7, 131, 90);
+}
+
+h1#principal { /* Pode colocar apenas o nome do indicador*/
+    text-align: center;
+    background-color: rgb(5, 96, 65);
+    color: azure;
+}
+
+h2 {
+    color: rgb(16, 84, 60);
+}
+
+.basico {
+    color: yellowgreen;
+}
+
+.intermediario {
+    color: rgb(2, 30, 35);
+}
+
+.avançado {
+    color: blue;
+}
+
+.destaque {
+    background-color: rgba(153, 210, 30, 0.745);
+}
+
+.destaque2 {
+    background-color: rgb(244, 244, 12);
+}

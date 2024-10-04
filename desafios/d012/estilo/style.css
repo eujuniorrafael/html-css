@@ -29,14 +29,14 @@ header {
 
 header > h1 {
     font-family: var(--fonte2);
-    font-size: 7vw; /* vw = view width = largura da tela / o número representa a porcentagem, ex.: 7% da largura da tela = 7vw*/
+    font-size: 8vw; /* vw = view width = largura da tela / o número representa a porcentagem, ex.: 7% da largura da tela = 7vw*/
     padding-top: 50px;
     font-variant: small-caps;
 }
 
 header > p {
     padding-bottom: 50px;
-    font-size: 2vw;
+    font-size: 2.5vw;
 }
 
 header a, footer a {

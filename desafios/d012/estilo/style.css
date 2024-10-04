@@ -36,6 +36,7 @@ header > h1 {
 
 header > p {
     padding-bottom: 50px;
+    font-size: 2vw;
 }
 
 header a, footer a {
@@ -55,6 +56,10 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 section.normal{

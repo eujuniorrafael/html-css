@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead> <!-- (Table Header): Define o cabeçalho da tabela. Dentro dele, normalmente são colocadas as linhas (<tr>) que contêm os títulos das colunas (<th>).-->
+            <tr> <!-- (Table Row): Define uma linha da tabela -->
+                <th>Coluna 1</th>
+                <th>Coluna 2</th>
+            </tr>
+        </thead>
+        
+        <tbody> <!-- (Table Body): Define o corpo da tabela, onde os dados reais são colocados. Contém as linhas (<tr>) e células (<td>) com os dados.-->
+            <tr><!-- (Table Row): Define uma linha da tabela -->
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+            </tr>
+        </tbody>
+        
+        <tfoot> <!-- (Table Footer): Define o rodapé da tabela. É usado para sumarizar informações ou adicionar uma linha de total, por exemplo. Ele aparece geralmente no final da tabela, mas pode ser processado visualmente antes de tbody em alguns casos. -->
+            <tr><!-- (Table Row): Define uma linha da tabela -->
+                <th>Total 1</th>
+                <td>Total 2</td>
+            </tr>
+        </tfoot>
+        
+     </table>
+     
+</body>
+</html>
